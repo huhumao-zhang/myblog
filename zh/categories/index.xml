@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Categories on AI助我思考</title>
-    <link>https://wenhua.chineseproductfinds.com/zh/categories/</link>
+    <link>https://blog.chineseproductfinds.com/zh/categories/</link>
     <description>Recent content in Categories on AI助我思考</description>
     <generator>Hugo -- 0.153.2</generator>
     <language>zh-cn</language>
     <lastBuildDate>Tue, 23 Dec 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://wenhua.chineseproductfinds.com/zh/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://blog.chineseproductfinds.com/zh/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>社会</title>
-      <link>https://wenhua.chineseproductfinds.com/zh/categories/%E7%A4%BE%E4%BC%9A/</link>
+      <link>https://blog.chineseproductfinds.com/zh/categories/%E7%A4%BE%E4%BC%9A/</link>
       <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://wenhua.chineseproductfinds.com/zh/categories/%E7%A4%BE%E4%BC%9A/</guid>
+      <guid>https://blog.chineseproductfinds.com/zh/categories/%E7%A4%BE%E4%BC%9A/</guid>
       <description></description>
     </item>
     <item>
       <title>心理学</title>
-      <link>https://wenhua.chineseproductfinds.com/zh/categories/%E5%BF%83%E7%90%86%E5%AD%A6/</link>
+      <link>https://blog.chineseproductfinds.com/zh/categories/%E5%BF%83%E7%90%86%E5%AD%A6/</link>
       <pubDate>Tue, 23 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://wenhua.chineseproductfinds.com/zh/categories/%E5%BF%83%E7%90%86%E5%AD%A6/</guid>
+      <guid>https://blog.chineseproductfinds.com/zh/categories/%E5%BF%83%E7%90%86%E5%AD%A6/</guid>
       <description></description>
     </item>
     <item>
       <title>观察</title>
-      <link>https://wenhua.chineseproductfinds.com/zh/categories/%E8%A7%82%E5%AF%9F/</link>
+      <link>https://blog.chineseproductfinds.com/zh/categories/%E8%A7%82%E5%AF%9F/</link>
       <pubDate>Mon, 22 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://wenhua.chineseproductfinds.com/zh/categories/%E8%A7%82%E5%AF%9F/</guid>
+      <guid>https://blog.chineseproductfinds.com/zh/categories/%E8%A7%82%E5%AF%9F/</guid>
       <description></description>
     </item>
   </channel>
