@@ -1,0 +1,37 @@
+<div class="share-buttons" style="margin-top:5px; display:flex; gap:5px; flex-wrap:wrap;">
+  <!-- Twitter / X -->
+  <a href="https://twitter.com/intent/tweet?text={{ .Title | urlquery }}&url={{ .Permalink | urlquery }}"
+     target="_blank"
+     style="width:20px; height:20px; display:flex; align-items:center; justify-content:center; background:#000; color:#fff; text-decoration:none;">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="14" height="14">
+      <path d="M23 3a10.9 10.9 0 01-3.14 1.53A4.48 4.48 0 0022.4.36a9 9 0 01-2.88 1.1A4.52 4.52 0 0016.5 0c-2.5 0-4.5 2-4.5 4.5 0 .35.04.7.1 1.03A12.94 12.94 0 013 1.67a4.49 4.49 0 001.39 6A4.41 4.41 0 012 7.5v.05c0 2.2 1.56 4.04 3.64 4.45a4.48 4.48 0 01-2.04.08c.57 1.78 2.22 3.08 4.17 3.12A9 9 0 010 19.54a12.7 12.7 0 006.88 2"/>
+    </svg>
+  </a>
+
+  <!-- Facebook -->
+  <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink | urlquery }}"
+     target="_blank"
+     style="width:20px; height:20px; display:flex; align-items:center; justify-content:center; background:#111; color:#fff; text-decoration:none;">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="14" height="14">
+      <path d="M22.675 0h-21.35C.597 0 0 .598 0 1.333v21.333C0 23.403.597 24 1.325 24h11.494v-9.294H9.692V11.29h3.127V8.413c0-3.1 1.894-4.788 4.657-4.788 1.325 0 2.464.099 2.794.143v3.24h-1.918c-1.504 0-1.796.715-1.796 1.763v2.313h3.587l-.467 3.416h-3.12V24h6.116C23.403 24 24 23.403 24 22.667V1.333C24 .598 23.403 0 22.675 0z"/>
+    </svg>
+  </a>
+
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ .Permalink | urlquery }}"
+     target="_blank"
+     style="width:20px; height:20px; display:flex; align-items:center; justify-content:center; background:#111; color:#fff; text-decoration:none;">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="14" height="14">
+      <path d="M4.98 3.5a2.5 2.5 0 11-.001 5.001A2.5 2.5 0 014.98 3.5zM.5 9h9v15h-9V9zm7.5 0H24v15H8V9z"/>
+    </svg>
+  </a>
+
+  <!-- WhatsApp -->
+  <a href="https://api.whatsapp.com/send?text={{ .Title | urlquery }}%20{{ .Permalink | urlquery }}"
+     target="_blank"
+     style="width:20px; height:20px; display:flex; align-items:center; justify-content:center; background:#111; color:#fff; text-decoration:none;">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="14" height="14">
+      <path d="M20.52 3.48A11.84 11.84 0 0012 0C5.373 0 0 5.373 0 12a11.84 11.84 0 001.67 6.07L0 24l5.93-1.64A11.84 11.84 0 0012 24c6.627 0 12-5.373 12-12 0-3.19-1.25-6.19-3.48-8.52zM12 21c-2.03 0-3.92-.63-5.5-1.71l-.39-.23-3.52.97.94-3.43-.26-.38A8.994 8.994 0 013 12c0-4.97 4.03-9 9-9s9 4.03 9 9-4.03 9-9 9z"/>
+    </svg>
+  </a>
+</div>

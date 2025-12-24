@@ -1,0 +1,66 @@
+baseURL = "https://wenhua.chineseproductfinds.com/"
+languageCode = "zh-cn"
+title = "AI助我思考"
+theme = "PaperMod"
+
+# 构建设置
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+# 分页
+[pagination]
+  pagerSize = 10
+
+# Markdown 渲染
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# PaperMod 参数（全部是官方支持的）
+[params]
+  defaultTheme = "auto"          # auto / light / dark
+  ShowReadingTime = true         # 阅读时间
+  ShowPostDate = true            # 文章日期
+  ShowBreadCrumbs = true         # 面包屑导航
+  ShowWordCount = true           # 字数统计
+  ShowCodeCopyButtons = true     # 代码复制按钮
+  ShowShareButtons = false       # 不显示分享按钮
+  ShowToc = false                # 不显示目录
+  comments = false               # 不启用评论
+  ShowPostNavLinks = true
+
+
+
+  # 自动摘要（不使用 summary / more）
+  UseHugoSummary = false
+
+  # 自定义 CSS（assets/css/custom.css）
+  customCSS = ["css/custom.css"]
+
+# 顶部菜单（可选，但推荐）
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "首页"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "categories"
+    name = "分类"
+    url = "/categories/"
+    weight = 2
+
+  [[menu.main]]
+    identifier = "tags"
+    name = "标签"
+    url = "/tags/"
+    weight = 3
+
+# 分类 / 标签启用
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+

@@ -1,0 +1,128 @@
+baseURL = "https://wenhua.chineseproductfinds.com/"
+title = "AI助我思考"
+theme = "PaperMod"
+
+# =========================
+# 多语言基础设置
+# =========================
+defaultContentLanguage = "zh"
+defaultContentLanguageInSubdir = true
+
+# =========================
+# 构建设置
+# =========================
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+# =========================
+# 分页
+# =========================
+[pagination]
+  pagerSize = 10
+
+# =========================
+# Markdown 渲染
+# =========================
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# =========================
+# 输出设置（Search 必须）
+# =========================
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+# =========================
+# PaperMod 参数
+# =========================
+[params]
+  env = "production"
+
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowPostDate = true
+  ShowBreadCrumbs = true
+  ShowWordCount = true
+  ShowCodeCopyButtons = true
+  ShowPostNavLinks = true
+
+  ShowToc = false
+  comments = false
+
+  # 关闭默认分享按钮（后面我们自定义）
+  ShowShareButtons = false
+
+  UseHugoSummary = false
+
+  customCSS = ["css/custom.css"]
+
+# =========================
+# 多语言 + 菜单
+# =========================
+[languages]
+
+  # -------- 中文 --------
+  [languages.zh]
+    languageName = "中文"
+    languageCode = "zh-cn"
+    weight = 1
+    title = "AI助我思考"
+
+    [languages.zh.menu]
+      [[languages.zh.menu.main]]
+        name = "Archive"
+        url = "/archives/"
+        weight = 10
+
+      [[languages.zh.menu.main]]
+        name = "Search"
+        url = "/search/"
+        weight = 20
+
+      [[languages.zh.menu.main]]
+        name = "Tags"
+        url = "/tags/"
+        weight = 30
+
+      [[languages.zh.menu.main]]
+        name = "Wiki"
+        url = "/wiki/"
+        weight = 40
+
+  # -------- English --------
+  [languages.en]
+    languageName = "EN"
+    languageCode = "en-us"
+    weight = 2
+    title = "AI Helps Me Think"
+
+    [languages.en.menu]
+      [[languages.en.menu.main]]
+        name = "Archive"
+        url = "/archives/"
+        weight = 10
+
+      [[languages.en.menu.main]]
+        name = "Search"
+        url = "/search/"
+        weight = 20
+
+      [[languages.en.menu.main]]
+        name = "Tags"
+        url = "/tags/"
+        weight = 30
+
+      [[languages.en.menu.main]]
+        name = "Wiki"
+        url = "/wiki/"
+        weight = 40
+
+# =========================
+# 分类 / 标签
+# =========================
+[taxonomies]
+  category = "categories"
+  tag = "tags"
