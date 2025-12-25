@@ -4,10 +4,10 @@ date: 2025-12-25T12:00:00+08:00
 draft: false
 categories: ["博物馆观察"]
 tags: ["大英博物馆", "中国博物馆", "展览设计", "文化比较"]
-image: "/images/museum-guide.jpg"
+image: "images/museum-guide.jpg"
 ---
 
-![博物馆导览示意图](images/museum-guide.jpg)
+![博物馆导览示意图](/images/museum-guide.jpg)
 
 ## 一、先给结论（很重要）
 
