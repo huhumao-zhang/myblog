@@ -1,12 +1,12 @@
-baseURL = "https://wenhua.chineseproductfinds.com/"
+baseURL = "https://blog.chineseproductfinds.com/"
 title = "AI助我思考"
 theme = "PaperMod"
 
 # =========================
-# 多语言基础设置
+# 基础设置
 # =========================
 defaultContentLanguage = "zh"
-defaultContentLanguageInSubdir = true
+defaultContentLanguageInSubdir = false  # 取消子目录多语言
 
 # =========================
 # 构建设置
@@ -60,65 +60,29 @@ buildExpired = false
   customCSS = ["css/custom.css"]
 
 # =========================
-# 多语言 + 菜单
+# 菜单
 # =========================
-[languages]
+[menu]
 
-  # -------- 中文 --------
-  [languages.zh]
-    languageName = "中文"
-    languageCode = "zh-cn"
-    weight = 1
-    title = "AI助我思考"
+  [[menu.main]]
+    name = "Archive"
+    url = "/archives/"
+    weight = 10
 
-    [languages.zh.menu]
-      [[languages.zh.menu.main]]
-        name = "Archive"
-        url = "/archives/"
-        weight = 10
+  [[menu.main]]
+    name = "Search"
+    url = "/search/"
+    weight = 20
 
-      [[languages.zh.menu.main]]
-        name = "Search"
-        url = "/search/"
-        weight = 20
+  [[menu.main]]
+    name = "Tags"
+    url = "/tags/"
+    weight = 30
 
-      [[languages.zh.menu.main]]
-        name = "Tags"
-        url = "/tags/"
-        weight = 30
-
-      [[languages.zh.menu.main]]
-        name = "Wiki"
-        url = "/wiki/"
-        weight = 40
-
-  # -------- English --------
-  [languages.en]
-    languageName = "EN"
-    languageCode = "en-us"
-    weight = 2
-    title = "AI Helps Me Think"
-
-    [languages.en.menu]
-      [[languages.en.menu.main]]
-        name = "Archive"
-        url = "/archives/"
-        weight = 10
-
-      [[languages.en.menu.main]]
-        name = "Search"
-        url = "/search/"
-        weight = 20
-
-      [[languages.en.menu.main]]
-        name = "Tags"
-        url = "/tags/"
-        weight = 30
-
-      [[languages.en.menu.main]]
-        name = "Wiki"
-        url = "/wiki/"
-        weight = 40
+  [[menu.main]]
+    name = "Wiki"
+    url = "/wiki/"
+    weight = 40
 
 # =========================
 # 分类 / 标签
