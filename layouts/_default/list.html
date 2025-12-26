@@ -101,7 +101,7 @@
     {{- if $paginator.HasNext }}
       <a class="next" href="{{ $paginator.Next.URL | absURL }}">
         {{- i18n "next_page" }}&nbsp;
-        {{- if ($paginator.Pages 0).Param "ShowPageNums" }}
+        {{- if .Param "ShowPageNums" }}
           {{- add 1 $paginator.PageNumber }}/{{ $paginator.TotalPages }}
         {{- end }}&nbsp;»
       </a>
