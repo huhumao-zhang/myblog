@@ -27,7 +27,7 @@ jobs:
       - name: 安装 Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: "latest"
+          hugo-version: '0.123.0'
 
       - name: 构建 Hugo 静态文件
         run: hugo --minify
