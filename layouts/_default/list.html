@@ -80,9 +80,6 @@
       </footer>
     {{- end }}
 
-    {{- /* 分享按钮 */ -}}
-    {{- partial "share-buttons.html" $page -}}
-
     <a class="entry-link" aria-label="post link to {{ $page.Title | plainify }}" href="{{ $page.Permalink }}"></a>
   </article>
 {{- end }}
@@ -93,7 +90,7 @@
     {{- if $paginator.HasPrev }}
       <a class="prev" href="{{ $paginator.Prev.URL | absURL }}">
         «&nbsp;{{ i18n "prev_page" }}&nbsp;
-        {{- if ($paginator.Pages 0).Param "ShowPageNums" }}
+        {{- if .Param "ShowPageNums" }}
           {{- sub $paginator.PageNumber 1 }}/{{ $paginator.TotalPages }}
         {{- end }}
       </a>
