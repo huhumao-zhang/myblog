@@ -1,6 +1,6 @@
 ---
 title: "高逻辑者的人性洞察与人际策略书单"
-date: 2025-12-28T19:30:00+08:00
+date: 2025-12-28T18:30:00+08:00
 draft: false
 categories: ["Psychology", "Cognitive Science", "Interpersonal Skills"]
 tags: ["Logic Thinking", "Emotional Intelligence", "Game Theory", "Social Psychology"]
