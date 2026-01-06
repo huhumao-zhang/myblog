@@ -1,16 +1,11 @@
 ---
 title: "社会性动物（The Social Animal）核心要义与实战拆解"
-date: 2026-01-0521:00:00+08:00
+date: 2026-01-05T21:00:00+08:00
 draft: false
-categories:
-  - Social Psychology
-  - Book Summary
-tags:
-  - Elliot Aronson
-  - Cognitive Dissonance
-  - Conformity
-  - Prejudice
+categories: [Social Psychology, Book Summary]
+tags: [Elliot Aronson, Cognitive Dissonance, Conformity, Prejudice]
 ---
+
 
 ### 《社会性动物》（The Social Animal）—— 艾略特·阿伦森（Elliot Aronson）核心要义结构化拆解
 
