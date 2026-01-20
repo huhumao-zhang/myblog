@@ -1,6 +1,6 @@
 ---
 title: "《反脆弱》（Antifragile: Things That Gain from Disorder）by 纳西姆·尼古拉斯·塔勒布（Nassim Nicholas Taleb）"
-date: 2026-01-20T18:00:00+08:00
+date: 2026-01-20T08:00:00+08:00
 draft: false
 categories: [心理学, 社会学, 认知心理学]
 ---
